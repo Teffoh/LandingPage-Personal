@@ -24,7 +24,7 @@
   color: #333;
   font-weight: 500;
   padding: 0.5rem 1rem;
-  transition: background 0.3s;
+  transition: background 1s;
 }
 
 .Menu-horizontal li a:hover {
@@ -72,7 +72,7 @@
     padding: 2rem 1rem;
     gap: 1rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: top 0.3s ease;
+    transition: top 0.8s ease;
     z-index: 1000;
   }
 
