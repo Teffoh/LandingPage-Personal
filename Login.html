@@ -3,52 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login con Clave Estática</title>
-    <link rel="stylesheet" href="login.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Login </title>
+
+    <link rel="stylesheet" href="menu_toggle.css" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="login.css" />
+
   </head>
   <body>
     <div class="background"></div>
-
     <nav class="topheader">
-        <!-- BOTÓN HAMBURGUESA -->
-       <button class="menu-toggle" aria-label="Abrir menú">
-        &#9776;
-     <!-- Ícono de hamburguesa -->
- 
-    </button>
-       <a href="LandingPage.html" class="logo">
-         <img height="30" width="" src="img\unnamed.png" alt="mllogo" /> </a
-       ><!-- Aqui se crea el logo-->
-       <!--- aqui se crea la clase del menu horizontal -->
-       <ul class="Menu-horizontal">
-         
-         <li><a href="">Productos </a>
-           <ul class="Menu-vertical">
-             <li><a href="">Productos en descuento</a></li>
-             <li><a href="">Productos en remate</a></li>
-             <li><a href="">Productos robados D:</a></li>
-       
-         </li>
-         
-         </li>
-       </ul>
-         <li>
-           <a href="">Servicios </a>
-           <ul class="Menu-vertical">
-             <li><a href="">Pago Servicios</a></li>
-             <li><a href="">Pago Impuestos </a></li>
-             <li><a href="">Transferencias </a></li>
-             <li><a href="">Financieros </a></li>
-           </ul>
-         </li>
-         <li><a href=""> Banca por internet </a></li>
-         <li><a href="Login.html"> Iniciar sesion </a></li>
-       </ul>
-       <div class="login"></div>
-       <img src="img/user.png" alt= "login " >
-     </div>
-     </nav>
+      <!-- Botón hamburguesa -->
+      <button class="menu-toggle" aria-label="Abrir menú">&#9776;</button>
+
+      <!-- Logo -->
+      <a href="index.html" class="logo">
+        <img height="30" src="img/unnamed.png" alt="mllogo" />
+      </a>
+
+      <!-- Menú -->
+      <ul class="Menu-horizontal">
+        <li>
+          <a href="#">Productos</a>
+          <ul class="Menu-vertical">
+            <li><a href="#">Productos en descuento</a></li>
+            <li><a href="#">Productos en remate</a></li>
+            <li><a href="#">Productos robados D:</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">Servicios</a>
+          <ul class="Menu-vertical">
+            <li><a href="#">Pago Servicios</a></li>
+            <li><a href="#">Pago Impuestos</a></li>
+            <li><a href="#">Transferencias</a></li>
+            <li><a href="#">Financieros</a></li>
+          </ul>
+        </li>
+
+        <li><a href="#">Ventas</a></li>
+        <li><a href="Login.html">Iniciar sesión</a></li>
+      </ul>
+
+      <!-- Icono usuario -->
+      <img src="img/user.png" alt="login" />
+    </nav>
+
      
     <section class="login-container">
       <div class="login-box">
@@ -87,5 +89,7 @@
     </section>
 
     <script src="login.js"></script>
+    <script src="Hamburguesa.js"></script>
   </body>
 </html>
+
